@@ -1,0 +1,39 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "modules": false,
+      "useBuiltIns": "usage",
+      "corejs": "3.0.0",
+      "targets": {
+        "browsers": [
+          "last 2 versions",
+          "ie >= 11",
+          "safari >= 10"
+        ]
+      }
+    }],
+    "@babel/react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-export-default-from",
+    ["lodash", {"id": ["lodash", "semantic-ui-react"]}],
+    ["@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-react-remove-prop-types"
+      ]
+    }
+  }
+}
