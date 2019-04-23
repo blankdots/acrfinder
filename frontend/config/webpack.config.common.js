@@ -20,7 +20,7 @@ const autoprefixerOptions = {
   flexbox: 'no-2009',
 }
 // Note: defined here because it will be used more than once.
-const cssFilename = 'static/css/[name].[contenthash:8].css'
+const cssFilename = 'static/css/[name].[md5:contenthash:hex:8].css'
 const cssClassName = isDev ? '[path][name]__[local]--[hash:base64:5]' : '[hash:base64:5]'
 // Heads up!
 // We use ExtractTextPlugin to extract LESS content in production environment,
