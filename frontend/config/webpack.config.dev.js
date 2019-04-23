@@ -89,4 +89,5 @@ module.exports = configMerge(commonConfig, {
   performance: {
     hints: false,
   },
+  mode:"development",
 })

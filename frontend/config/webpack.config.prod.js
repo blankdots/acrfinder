@@ -122,4 +122,5 @@ module.exports = configMerge(commonConfig, {
     // Add Bundle Analyzer when it's required
     process.env.ANALYZE && new BundleAnalyzerPlugin()
   ].filter(Boolean),
+  mode:"production",
 })
