@@ -1,8 +1,6 @@
 ## Acronym Finder
 
-The single best thing, besides asking a colleague or Google the meaning of that acronym someone mentioned in a meeting.
-
-Yes, feel free not to use it :)
+For when one needs to find that thing someone mentioned.
 
 ### Running the Backend
 
