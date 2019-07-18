@@ -11,6 +11,7 @@
     "babel-polyfill": "^6.26.0",
     "chalk": "^2.3.1",
     "core-js": "3",
+    "lodash": "4.17.13",
     "mini-css-extract-plugin": ">=0.6.0",
     "react": "^16.2.0",
     "react-dev-utils": "^9.0.0",
